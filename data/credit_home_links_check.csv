@@ -1,0 +1,2 @@
+section,locator
+quick_pic_links,"(By.XPATH, ""//div[@class='swiper-wrapper']//a"")"
