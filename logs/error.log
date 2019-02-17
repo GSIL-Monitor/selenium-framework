@@ -1,6 +1,40 @@
-[2019-02-03 11:22:55] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:23:06] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:23:17] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:36:49] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:37:00] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:37:11] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:36:42] credit_login.py [line:27] [ERROR]  Failed to open data file!
+[2019-02-17 11:36:42] credit_login.py [line:28] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework\\data\\Global_Environment.csv'
+[2019-02-17 11:40:06] credit_login.py [line:22] [ERROR]  Failed to open data file!
+[2019-02-17 11:40:06] credit_login.py [line:23] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework/project.yaml'
+[2019-02-17 11:41:18] credit_login.py [line:22] [ERROR]  Failed to open data file!
+[2019-02-17 11:41:18] credit_login.py [line:23] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework/conf/project.yaml'
+[2019-02-17 11:45:19] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:45:30] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:45:40] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:31] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:41] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:53] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:27] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:38] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:49] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:11:12] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:11:23] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:12:35] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:12:40] send_email.py [line:76] [ERROR]  (535, b'Error: authentication failed, system busy')
+[2019-02-17 12:21:31] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:21:42] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:21:53] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:29] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:40] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:50] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:25:13] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:25:24] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:26:35] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:26:37] credit_functions.py [line:205] [ERROR]  module 'selenium.webdriver.support.expected_conditions' has no attribute 'url_to_be'
+[2019-02-17 12:26:38] credit_functions.py [line:141] [ERROR]  Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86)
+
+[2019-02-17 12:26:41] send_email.py [line:76] [ERROR]  (535, b'Error: authentication failed, system busy')
+[2019-02-17 12:36:02] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:36:13] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:36:24] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:29] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:41] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:51] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!

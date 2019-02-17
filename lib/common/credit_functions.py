@@ -1,25 +1,20 @@
 # -*- coding:utf-8 -*-
-import os
-import csv
 import time
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import TimeoutException
 from lib.common.log import logger
 from lib.page_objects.HomePage import HomePage
+from lib.common.parse_file import ParseYaml
+
 
 # open credit system
 def open_credit(driver):
     # open data file to get base url
     try:
-        file_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/data/Global_Environment.csv"
-        data_file = os.path.abspath(file_path)
-        data = csv.reader(open(data_file, 'r'))
-
-        url = ""
-        for item in data:
-            if item[0] == "URL":
-                url = item[1]
+        file_obj = ParseYaml('project.yml')
+        data_dict = file_obj.get_yaml_dict()
+        url = data_dict['URL']
         page_obj = HomePage(driver)
         page_obj.open(url)
         if page_obj.default_alert_pops():
@@ -30,21 +25,15 @@ def open_credit(driver):
         logger.error("Failed to open data file!")
         logger.error(e)
 
+
 # login credit system
 def login_credit_system(page_obj):
     # open data file to get user name and password
     try:
-        file_path = os.path.dirname(os.path.dirname(os.path.dirname(__file__))) + "/data/Global_Environment.csv"
-        data_file = os.path.abspath(file_path)
-        data = csv.reader(open(data_file, 'r'))
-        username = ""
-        password = ""
-        for item in data:
-            if item[0] == "UserName":
-                username = item[1]
-            if item[0] == "Password":
-                password = item[1]
-
+        file_obj = ParseYaml('project.yml')
+        data_dict = file_obj.get_yaml_dict()
+        username = data_dict['UserName']
+        password = data_dict['Password']
         page_obj.click_login()
         page_obj.type_username(username)
         page_obj.type_password(password)
@@ -58,6 +47,7 @@ def login_credit_system(page_obj):
     except Exception as e:
         logger.error("Failed to open data file!")
         logger.error(e)
+
 
 # generate dictionary data and then return as a dictionary list
 def generate_dict_then_append_as_list(list_key, list_value):

@@ -1,48 +1,65 @@
-[2018-09-06 11:06:43] credit_login.py [line:43] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:06:45] credit_login.py [line:52] [INFO]  User: a123 logout system successfully!
-[2018-09-06 11:07:00] credit_functions.py [line:55] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:07:14] credit_home_links_check.py [line:30] [INFO]  The links are ['(By.XPATH, "//div[@class=\'swiper-wrapper\']//a")']
-[2018-09-06 11:07:14] credit_home_links_check.py [line:43] [INFO]  The url is http://www.xycq.gov.cn/
-[2018-09-06 11:07:21] send_email.py [line:74] [INFO]  Pass to send email
-[2018-09-06 11:11:35] credit_login.py [line:43] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:11:37] credit_login.py [line:52] [INFO]  User: a123 logout system successfully!
-[2018-09-06 11:11:52] credit_functions.py [line:55] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:12:06] credit_home_header_article_search.py [line:43] [INFO]  The for-searched name and time have been fetched: 《廊坊市人民政府关于加强政务诚信体系建设的实施方案》,2018-09-04
-[2018-09-06 11:12:18] credit_home_header_article_search.py [line:53] [INFO]  The article: 《廊坊市人民政府关于加强政务诚信体系建设的实施方案》 has been searched out successfully in full-match-mode!
-[2018-09-06 11:12:32] credit_home_header_article_search.py [line:71] [INFO]  The article: 《廊坊市人民政府关于加强政务诚信体系建设的实施方案》 has been searched out successfully in partial-match-mode!
-[2018-09-06 11:12:43] credit_home_links_check.py [line:31] [INFO]  The links are ['(By.XPATH, "//div[@class=\'swiper-wrapper\']//a")']
-[2018-09-06 11:12:43] credit_home_links_check.py [line:44] [INFO]  The url is http://www.xycq.gov.cn/
-[2018-09-06 11:12:46] credit_functions.py [line:118] [INFO]  The elements have been found: 6
-[2018-09-06 11:12:47] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/code/list.html?navPage=2
-[2018-09-06 11:12:49] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/agree/list.html?navPage=2
-[2018-09-06 11:12:51] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/credit/redblack/init.html?navPage=3
-[2018-09-06 11:12:53] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/exception/list.html?navPage=2
-[2018-09-06 11:12:56] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/view/default/xzjc_new.html?navPage=2
-[2018-09-06 11:12:58] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/view/default/zcgzsj_new.html?navPage=2
-[2018-09-06 11:12:59] credit_home_links_check.py [line:54] [INFO]  All the links can be opened successfully!
-[2018-09-06 11:14:03] credit_login.py [line:43] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:14:05] credit_login.py [line:52] [INFO]  User: a123 logout system successfully!
-[2018-09-06 11:14:19] credit_functions.py [line:55] [INFO]  User: a123 login system successfully!
-[2018-09-06 11:14:34] credit_home_header_article_search.py [line:43] [INFO]  The for-searched name and time have been fetched: 《广州市住房和城乡建设委员会关于完善施工和监理企业诚信综合评价体系的通知》,2018-09-04
-[2018-09-06 11:14:45] credit_home_header_article_search.py [line:53] [INFO]  The article: 《广州市住房和城乡建设委员会关于完善施工和监理企业诚信综合评价体系的通知》 has been searched out successfully in full-match-mode!
-[2018-09-06 11:15:00] credit_home_header_article_search.py [line:71] [INFO]  The article: 《广州市住房和城乡建设委员会关于完善施工和监理企业诚信综合评价体系的通知》 has been searched out successfully in partial-match-mode!
-[2018-09-06 11:15:08] credit_home_links_check.py [line:31] [INFO]  The links are ['(By.XPATH, "//div[@class=\'swiper-wrapper\']//a")']
-[2018-09-06 11:15:08] credit_home_links_check.py [line:44] [INFO]  The url is http://www.xycq.gov.cn/
-[2018-09-06 11:15:11] credit_functions.py [line:118] [INFO]  The elements have been found: 6
-[2018-09-06 11:15:13] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/code/list.html?navPage=2
-[2018-09-06 11:15:15] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/agree/list.html?navPage=2
-[2018-09-06 11:15:17] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/credit/redblack/init.html?navPage=3
-[2018-09-06 11:15:19] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/query/exception/list.html?navPage=2
-[2018-09-06 11:15:22] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/view/default/xzjc_new.html?navPage=2
-[2018-09-06 11:15:24] credit_functions.py [line:200] [INFO]  Pass to open link: http://www.xycq.gov.cn/html/view/default/zcgzsj_new.html?navPage=2
-[2018-09-06 11:15:25] credit_home_links_check.py [line:54] [INFO]  All the links can be opened successfully!
-[2019-02-03 11:22:55] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:23:06] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:23:06] credit_login.py [line:43] [INFO]  User: a123 login system successfully!
-[2019-02-03 11:23:17] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:23:17] credit_login.py [line:52] [INFO]  User: a123 logout system successfully!
-[2019-02-03 11:36:49] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:37:00] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:37:00] credit_login.py [line:43] [INFO]  User: a123 login system successfully!
-[2019-02-03 11:37:11] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
-[2019-02-03 11:37:11] credit_login.py [line:52] [INFO]  User: a123 logout system successfully!
+[2019-02-17 11:36:42] credit_login.py [line:27] [ERROR]  Failed to open data file!
+[2019-02-17 11:36:42] credit_login.py [line:28] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework\\data\\Global_Environment.csv'
+[2019-02-17 11:40:06] credit_login.py [line:22] [ERROR]  Failed to open data file!
+[2019-02-17 11:40:06] credit_login.py [line:23] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework/project.yaml'
+[2019-02-17 11:41:18] credit_login.py [line:22] [ERROR]  Failed to open data file!
+[2019-02-17 11:41:18] credit_login.py [line:23] [ERROR]  [Errno 2] No such file or directory: 'C:\\selenium-framework/conf/project.yaml'
+[2019-02-17 11:45:19] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:45:30] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:45:30] credit_login.py [line:39] [INFO]  User: a123 login system successfully!
+[2019-02-17 11:45:40] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:45:40] credit_login.py [line:48] [INFO]  User: a123 logout system successfully!
+[2019-02-17 11:49:31] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:41] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:41] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 11:49:53] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 11:49:53] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!
+[2019-02-17 12:10:27] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:38] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:38] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:10:49] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:10:49] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!
+[2019-02-17 12:11:12] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:11:23] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:11:23] credit_functions.py [line:46] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:11:39] credit_home_header_article_search.py [line:43] [INFO]  The for-searched name and time have been fetched: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知,2019-02-14
+[2019-02-17 12:11:52] credit_home_header_article_search.py [line:53] [INFO]  The article: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知 has been searched out successfully in full-match-mode!
+[2019-02-17 12:12:12] credit_home_header_article_search.py [line:71] [INFO]  The article: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知 has been searched out successfully in partial-match-mode!
+[2019-02-17 12:12:21] credit_home_links_check.py [line:31] [INFO]  The links are ['(By.XPATH, "//div[@class=\'swiper-wrapper\']//a")']
+[2019-02-17 12:12:35] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:12:40] send_email.py [line:76] [ERROR]  (535, b'Error: authentication failed, system busy')
+[2019-02-17 12:21:31] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:21:42] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:21:42] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:21:53] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:21:53] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!
+[2019-02-17 12:24:29] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:40] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:40] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:24:50] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:24:50] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!
+[2019-02-17 12:25:13] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:25:24] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:25:24] credit_functions.py [line:44] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:25:39] credit_home_header_article_search.py [line:43] [INFO]  The for-searched name and time have been fetched: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知,2019-02-14
+[2019-02-17 12:25:52] credit_home_header_article_search.py [line:53] [INFO]  The article: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知 has been searched out successfully in full-match-mode!
+[2019-02-17 12:26:12] credit_home_header_article_search.py [line:71] [INFO]  The article: 关于进一步做好“僵尸企业”及去产能企业债务处置工作的通知 has been searched out successfully in partial-match-mode!
+[2019-02-17 12:26:21] credit_home_links_check.py [line:31] [INFO]  The links are ['(By.XPATH, "//div[@class=\'swiper-wrapper\']//a")']
+[2019-02-17 12:26:35] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:26:35] credit_functions.py [line:108] [INFO]  The elements have been found: 6
+[2019-02-17 12:26:37] credit_functions.py [line:205] [ERROR]  module 'selenium.webdriver.support.expected_conditions' has no attribute 'url_to_be'
+[2019-02-17 12:26:38] credit_functions.py [line:141] [ERROR]  Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86)
+
+[2019-02-17 12:26:41] send_email.py [line:76] [ERROR]  (535, b'Error: authentication failed, system busy')
+[2019-02-17 12:36:02] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:36:13] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:36:13] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:36:24] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:36:24] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!
+[2019-02-17 12:43:29] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:41] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:41] credit_login.py [line:36] [INFO]  User: a123 login system successfully!
+[2019-02-17 12:43:51] BasePage.py [line:31] [ERROR]  The element:('xpath', "//div[@id='outsideAlert-zhaopin']") has not been shown in current page!
+[2019-02-17 12:43:51] credit_login.py [line:45] [INFO]  User: a123 logout system successfully!

@@ -1,10 +1,9 @@
 # -*- coding:utf-8 -*-
-
 from selenium import webdriver
 
 
 def browser_chrome():
-    # load google chrome browser and initiate testing environment
+    #load google chrome browser and initiate testing environment
     #prefs = {'profile.default_content_settings.popups': 0}
     #options = webdriver.ChromeOptions()
     #options.add_experimental_option('prefs', prefs)
@@ -16,7 +15,7 @@ def browser_chrome():
 
 
 def browser_firefox():
-    # load firefox browser and initiate testing environment
+    #load firefox browser and initiate testing environment
     #options = webdriver.FirefoxOptions()
     #options.add_argument('-headless')
     #driver = webdriver.Firefox(executable_path='geckodriver', firefox_options=options)
@@ -26,4 +25,4 @@ def browser_firefox():
 
 
 def initialize_browser():
-    return browser_firefox()
+    return browser_chrome()

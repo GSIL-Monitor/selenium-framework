@@ -2,8 +2,8 @@
 import unittest
 import csv
 import os
-from lib.common.webdriver import initialize_browser
 from selenium.webdriver.common.by import By
+from lib.common.webdriver import initialize_browser
 from lib.common.log import logger
 from lib.common.credit_functions import open_credit, test_page_links
 
@@ -29,19 +29,6 @@ class CreditHomeLinksCheck(unittest.TestCase):
             if line[0] != "section" and line[0] != "":
                 loc_links.append(line[1])
         logger.info("The links are {}".format(loc_links))
-
-        # prepare test data - fetch base url
-        try:
-            file_path = os.path.dirname(os.path.dirname(__file__)) + "/data/Global_Environment.csv"
-            data_file = os.path.abspath(file_path)
-            data = csv.reader(open(data_file, 'r'))
-        except:
-            logger.error("Failed to open data file!")
-
-        for item in data:
-            if item[0] == "URL":
-                self.url = item[1]
-        logger.info("The url is {}".format(self.url))
 
     def testHomeLinksCheck(self):
         '''Check the main links of home page can be opened successfully.'''

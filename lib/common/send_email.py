@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 from bs4 import BeautifulSoup
-from lib.common.global_var import *
+from conf.global_var import *
 from lib.common.log import logger
 
 

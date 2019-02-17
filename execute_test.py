@@ -4,7 +4,7 @@ import unittest
 # from xvfbwrapper import Xvfb
 from HTMLTestRunner import HTMLTestRunner
 
-from lib.common.global_var import PROJECT_PATH
+from conf.global_var import PROJECT_PATH
 from lib.common.send_email import SendMail
 from scripts.credit_login import CreditLogin
 from scripts.credit_home_header_article_search import HeaderArticleSearch
@@ -23,13 +23,13 @@ if __name__ == "__main__":
     '''触发执行'''
     # vdisplay = Xvfb(width=1920, height=1080)
     # vdisplay.start()
-    runner = HTMLTestRunner(stream=report, title="Automation Test Report", description="重庆信用信息")
+    runner = HTMLTestRunner(stream=report, title="Automation Test Report", description="信用重庆")
     result = runner.run(total_suite)
     report.close()
     # vdisplay.stop()
 
-    # obj_email = SendMail(report_file_path)
-    # obj_email.send_email()
+    obj_email = SendMail(report_file_path)
+    obj_email.send_email()
 
 
 

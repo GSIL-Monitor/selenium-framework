@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
 
 import csv  # excel lib
+import yaml  # yaml lib
 from configparser import ConfigParser  # ini lib
 from xml.etree.ElementTree import ElementTree  # xml lib
 from lib.common.log import logger
+from conf.global_var import PROJECT_PATH
 
 
 class ParseIni(object):
@@ -16,6 +18,16 @@ class ParseIni(object):
 
     def get_option_value(self, section_name, option_name):
         return self.cf.get(section_name, option_name)
+
+
+class ParseYaml(object):
+    def __init__(self, file_name):
+        self.file_path = PROJECT_PATH + u'/conf/' + file_name
+
+    def get_yaml_dict(self):
+        f = open(self.file_path, 'r', encoding='utf-8')
+        data_dict = yaml.load(f.read())
+        return data_dict
 
 
 class ParseExcel(object):

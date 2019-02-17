@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 import pymssql
-import pymysql
 from lib.common.log import logger
+
 
 class SqlDriver(object):
     def __init__(self, host, port, user, password, database):
